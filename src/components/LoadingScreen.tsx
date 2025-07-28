@@ -43,7 +43,7 @@ const LoadingScreen = ({ isFirstLoad = false }: LoadingScreenProps) => {
           <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-white rounded-xl flex items-center justify-center">
             {/* Brand logo placeholder */}
             <img 
-                  src="/logo.png" 
+                  src="/logo1.png" 
                   alt="Deccan Hive Logo" 
                   className="w-12 h-12 object-contain"
                 />
