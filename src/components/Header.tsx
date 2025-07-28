@@ -61,7 +61,7 @@ const Header = () => {
               <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                 {/* White placeholder for custom logo */}
                 <img 
-                  src="/logo.png" 
+                  src="/logo1.png" 
                   alt="Deccan Hive Logo" 
                   className="w-12 h-12 object-contain"
                 />
@@ -128,7 +128,7 @@ const Header = () => {
               <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-xl">
                 {/* White placeholder for custom logo */}
                 <img 
-                  src="/logo.png" 
+                  src="/logo1.png" 
                   alt="Deccan Hive Logo" 
                   className="w-12 h-12 object-contain"
                 />
