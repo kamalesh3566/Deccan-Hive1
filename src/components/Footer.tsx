@@ -125,7 +125,7 @@ const Footer = () => {
         <div className="border-t border-[#6E6E6E]/20 mt-12 pt-8">
           {/* Copyright and Legal Links */}
           <div className="text-center">
-            <p className="text-[#6E6E6E] mb-4">© {new Date().getFullYear()} Deccan Hive Digital Marketing Agency Pvt Ltd. All rights reserved.</p>
+            <p className="text-[#6E6E6E] mb-4">© {new Date().getFullYear()} Deccan Hive Pvt Ltd. All rights reserved.</p>
 
             
             {/* Legal Links - Desktop: beside copyright, Mobile/Tablet: centered below */}
