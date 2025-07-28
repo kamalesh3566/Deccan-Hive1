@@ -10,6 +10,7 @@ import AnimatedBackground from '@/components/AnimatedBackground';
 
 const About = () => {
   const navigate = useNavigate();
+  
   // Scroll to top on page load
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -36,19 +37,34 @@ const About = () => {
 
   const team = [
     {
-      name: 'Rajesh Kumar',
-      role: 'Founder & CEO',
-      bio: '10+ years in digital marketing'
+      name: 'Thurupu Praveen Kumar',
+      role: 'Founder and CEO',
+      bio: 'Visionary leader driving digital innovation'
     },
     {
-      name: 'Priya Sharma',
-      role: 'Creative Director',
-      bio: 'Expert in brand storytelling'
+      name: 'Hari Priya Jaligam',
+      role: 'Copy Writing, Content Creation',
+      bio: 'Creative wordsmith and content strategist'
     },
     {
-      name: 'Mohammed Ali',
-      role: 'Tech Lead',
-      bio: 'Full-stack development specialist'
+      name: 'Gaddam Srinivas Murali',
+      role: 'Co-founder, Marketing Head',
+      bio: 'Strategic marketing expert and co-founder'
+    },
+    {
+      name: 'Sai Kiran Gandla',
+      role: 'Web Developer, UI/UX & SEO Expert',
+      bio: 'Full-stack developer and digital experience specialist'
+    },
+    {
+      name: 'Akshay Gaddam',
+      role: 'Social Media Manager',
+      bio: 'Social media strategist and community builder'
+    },
+    {
+      name: 'Sonali Sharma',
+      role: 'Graphic Designer',
+      bio: 'Visual artist creating compelling brand experiences'
     }
   ];
 
