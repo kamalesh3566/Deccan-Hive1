@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
                 {/* White placeholder for custom logo */}
                 <img 
-                  src="/logo.png" 
+                  src="/logo2.png" 
                   alt="Deccan Hive Logo" 
                   className="w-12 h-12 object-contain"
                 />
