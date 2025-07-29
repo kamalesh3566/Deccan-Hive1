@@ -52,7 +52,7 @@ const About = () => {
       bio: 'Strategic marketing expert and co-founder'
     },
     {
-      name: 'Sai Kiran Gandla',
+      name: 'Karthik',
       role: 'Web Developer, UI/UX & SEO Expert',
       bio: 'Full-stack developer and digital experience specialist'
     },
