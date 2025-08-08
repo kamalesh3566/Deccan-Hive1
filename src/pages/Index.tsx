@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { ArrowRight, Star, Users, TrendingUp, Award, Zap } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -138,17 +139,23 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/60 z-10"></div>
 
         <div className="container mx-auto text-center relative z-20 animate-fade-in px-4 max-w-7xl">
+          {/* SEO H1 - Screen reader only */}
+          <h1 className="sr-only">
+            Deccan Hive - AI-Powered Digital Marketing Agency Delivering 360° Digital Solutions That Transform Your Business
+          </h1>
+          
           <div className="inline-flex items-center bg-[#F9C326]/10 border border-[#F9C326]/20 rounded-full px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 mb-6 sm:mb-8">
             <Zap className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-[#F9C326] mr-2" />
             <span className="text-[#F9C326] font-semibold text-sm sm:text-base lg:text-lg">360° Digital Solutions</span>
           </div>
           
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight drop-shadow-lg">
+          {/* Visual heading - maintains original design */}
+          <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-bold mb-4 sm:mb-6 lg:mb-8 leading-tight drop-shadow-lg" aria-hidden="true">
             WE OFFER <span className="text-[#F9C326]">360°</span><br />
             <span className="text-white">DIGITAL</span><br />
             <span className="text-white">SOLUTIONS</span><br />
             THAT <span className="text-[#F9C326]">DELIVER</span>
-          </h1>
+          </div>
           
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/90 mb-6 sm:mb-8 lg:mb-12 max-w-2xl lg:max-w-4xl mx-auto leading-relaxed px-2 drop-shadow-md">
             Helping micro and local businesses grow online with proven digital marketing strategies that generate real results.
@@ -160,9 +167,9 @@ const Index = () => {
               size="lg"
               asChild
             >
-              <Link to="/contact#contact-form">
+              <Link to="/contact#contact-form" aria-label="Get a free quote for digital marketing services">
                 GET A QUOTE
-                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
+                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" aria-hidden="true" />
               </Link>
             </Button>
             <Button 
@@ -171,7 +178,7 @@ const Index = () => {
               size="lg"
               asChild
             >
-              <Link to="/services">
+              <Link to="/services" aria-label="Explore our comprehensive digital marketing services">
                 EXPLORE OUR SERVICES
               </Link>
             </Button>
@@ -276,9 +283,9 @@ const Index = () => {
                 size="lg"
                 asChild
               >
-                <Link to="/contact#contact-form">
+                <Link to="/contact#contact-form" aria-label="Start your digital transformation journey today">
                   GET STARTED TODAY
-                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
+                  <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" aria-hidden="true" />
                 </Link>
               </Button>
             </div>
